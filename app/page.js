@@ -9,6 +9,9 @@ export default function Home() {
         <Hero />
       </div>
       <div className="mt-16">
+        <p className="font-medium text-xs text-center mb-4">
+          2+ years of expertise
+        </p>
         <TrustedBy />
       </div>
     </div>

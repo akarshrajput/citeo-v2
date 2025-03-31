@@ -11,7 +11,6 @@ const reviews = [
 export function TrustedBy() {
   return (
     <div className="relative text-stone-300 flex w-full flex-col items-center justify-center overflow-hidden">
-      <p className="font-medium text-xs mb-4">2+ years of expertise</p>
       <Marquee className="[--duration:15s]" pauseOnHover>
         {reviews.map((text, index) => (
           <span
